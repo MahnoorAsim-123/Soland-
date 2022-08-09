@@ -1,0 +1,1051 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    box-shadow: none !important;
+}
+.whitepaper h1 {
+    font-size: 55px !important;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#presentaion {
+    color: #ffff;
+}
+.mainheader {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../components/screen/img/baner1.png);
+    background-size: cover;
+    position: relative;
+}
+.navsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px 20px;
+    border-bottom: 1px solid rgb(211, 211, 211, 0.1);
+    background-color: rgb(0, 0, 0, 0.9);
+}
+.navsection ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navsection ul li {
+    margin-right: 30px;
+    list-style: none;
+    margin-top: 10px;
+}
+.solandlogo {
+    width: 130px;
+}
+#Soland {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: linear-gradient(#EB11F4, #79C1F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Nightclub !important;
+}
+.navsection ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    text-align: center;
+}
+.content h1 {
+    font-size: 60px;
+    color: #AC00BF;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.content p {
+    font-size: 20px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 14px;
+    color: aliceblue;
+    font-weight: 500;
+}
+#bar {
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: linear-gradient(#EB11F4, #79C1F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Nightclub !important;
+    font-size: 26px;
+    display: none;
+    cursor: pointer;
+    position: relative;
+}
+.mobilemenu {
+    display: block !important;
+    position: absolute;
+    top: 40px;
+    left: -100px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    transition: .3s ease-in-out;
+    visibility: hidden;
+    z-index: 1;
+}
+.mobilemenu li a {
+    color: #000 !important;
+    font-weight: 600 !important;
+    background: linear-gradient(#ffff, aliceblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 1020px) {
+    .content h1 {
+        font-size: 50px !important;
+    }
+
+    .aboutPara {
+        width: 80% !important;
+    }
+
+    .card-content {
+        margin: 0px !important;
+        justify-content: space-evenly !important;
+
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #bar {
+        display: flex;
+    }
+
+    #dropshow {
+        /* display: flex !important; */
+    }
+
+    .icons ul li a {
+        display: none;
+    }
+
+    .mobilemenu li a {
+        display: block !important;
+    }
+
+    .aboutPara {
+        width: 80% !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .parnterHeading input {
+        width: 80% !important;
+        padding: 5px !important;
+    }
+
+    .parnterHeading h1 {
+        font-size: 30px !important;
+    }
+
+    .animateContent h1 {
+        font-size: 30px !important;
+    }
+
+    .blogheading h1 {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content h1 {
+        font-size: 43px !important;
+    }
+
+    .content p {
+        font-size: 15px !important;
+    }
+
+    .postHeading h1 {
+        font-size: 25px !important;
+    }
+
+    .questionbtn h2 {
+        font-size: 17px !important;
+    }
+
+    .content {
+        height: 55vh !important;
+    }
+
+    .counter h1 {
+        font-size: 25px !important;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .content h1 {
+        font-size: 36px !important;
+    }
+
+    .content p {
+        font-size: 12px !important;
+    }
+
+    .parnterHeading h1 {
+        font-size: 20px !important;
+    }
+
+    .content {
+        height: 45vh !important;
+    }
+
+    .mainheader {
+        height: 80vh !important;
+    }
+
+    .mobilemenu {
+        top: 25px;
+        left: -80px;
+    }
+
+    .solandlogo {
+        width: 45px !important;
+    }
+
+    .hour h3 {
+        font-size: 17px !important;
+    }
+
+    .counterheading h1 {
+        font-size: 20px !important;
+    }
+
+    .blogheading h1 {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    #mobICon {
+        width: 20px !important;
+    }
+}
+
+.counter {
+    background-color: #160022;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.counter h1 {
+    color: #AC00BF;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about {
+    width: 100%;
+    align-items: center;
+    background: linear-gradient();
+    margin-top: -8px;
+    background: linear-gradient(#09020c, #251a3f);
+    position: relative;
+}
+
+.about::before {
+    width: 100%;
+    content: "";
+    height: 200px;
+    background: linear-gradient(#251a3f, #00000000);
+    position: absolute;
+    top: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 90vh;
+    align-items: center;
+}
+.aboutPara {
+    width: 50%;
+}
+.aboutPara p {
+    color: rgb(228, 224, 224);
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.blogheading h1 {
+    color: #AC00BF;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.download i {
+    font-size: 20px;
+    color: #AC00BF;
+}
+.download {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #160022;
+}
+.solandpresentation h3 a {
+    color: #AC00BF !important;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.aboutPara h1 {
+    font-size: 50px;
+    color: #AC00BF;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.cardSection {
+    width: 100%;
+    background-image: url(../components/screen/img/baner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.card1 {
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin: 9px;
+    padding: 20px;
+    text-align: center;
+    width: 340px;
+}
+.card1 h4 {
+    font-size: 30px;
+    color: #AC00BF;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.card1 p {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(228, 224, 224);
+}
+.card-content {
+    display: flex;
+    margin-left: 150px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.post {
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../components/screen/img/baner3.png);
+    padding: 20px;
+}
+.postcontent p,
+.allContent p {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(219, 211, 211);
+}
+.logimg {
+    display: flex;
+    justify-content: center;
+}
+.para {
+    text-align: center;
+}
+
+.postcontent h1,
+.allContent h1 {
+    font-size: 35px;
+    color: #AC00BF;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.allContent h5,
+.allContent h6 {
+    color: #AC00BF;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.allContent h2 {
+    text-align: center;
+    color: #AC00BF;
+    padding: 10px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.postHeading h1 {
+    font-size: 35px;
+    color: #AC00BF;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.postcontent h4 {
+    font-size: 20px;
+    color: #ffff;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.animateContent {
+    width: 100%;
+    padding: 20px 0px;
+    background: linear-gradient(#0c020f, #160022);
+    position: relative;
+}
+.check {
+    overflow: hidden;
+}
+.scroll-main {
+    display: flex;
+    justify-content: center;
+    width: 3400px;
+    flex-wrap: nowrap;
+}
+
+.scrollimg {
+    transform: translateX(0%);
+    word-wrap: none;
+    animation: scrolling 15s linear infinite;
+}
+
+.scrollimg img,
+.scrolcheck img {
+    margin: 6px;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.scrollimg2 {
+    transform: translateX(-100%);
+    animation: scrolling2 15s linear infinite;
+}
+
+.scrollimg2 img {
+
+    margin: 3px;
+}
+
+@keyframes scrolling2 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.collectioHeading h1 {
+    font-size: 50px;
+    color: #AC00BF;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.partnerplacholder {
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(#281d42, #290b27);
+    margin-top: -8px;
+}
+
+.parnterHeading {
+    text-align: center;
+}
+
+.parnterHeading h1 {
+    font-size: 40px;
+    color: #AC00BF;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parnterHeading input {
+    width: 50%;
+    border-radius: 10px;
+    outline: none;
+    padding: 0px;
+    border: none;
+}
+
+.send {
+    width: 130px;
+    font-size: 23px;
+    padding: 2px;
+    background-image: linear-gradient(325deg,
+            hsl(240deg 87% 24%) 0%,
+            hsl(258deg 86% 23%) 8%,
+            hsl(268deg 86% 22%) 17%,
+            hsl(278deg 85% 21%) 25%,
+            hsl(287deg 84% 20%) 33%,
+            hsl(298deg 83% 19%) 42%,
+            hsl(308deg 84% 20%) 50%,
+            hsl(317deg 85% 21%) 58%,
+            hsl(324deg 86% 23%) 67%,
+            hsl(332deg 87% 24%) 75%,
+            hsl(339deg 87% 25%) 83%,
+            hsl(347deg 88% 26%) 92%,
+            hsl(0deg 88% 27%) 100%);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -10px;
+}
+
+::placeholder {
+    padding: 0px 10px;
+    font-size: 19px;
+}
+
+.from {
+    display: flex;
+}
+.faqs {
+    background: linear-gradient(#290b27, #36265A);
+    padding: 20px;
+}
+
+.faHeading h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #AC00BF;
+    font-family: Helevatic;
+}
+.card {
+    background: transparent !important;
+    color: #fff;
+    box-shadow: none !important;
+    font-family: Helevatic;
+}
+
+.questionbtn {
+    color: #fff !important;
+    font-family: Helevatic;
+
+}
+
+.footer {
+    padding: 20px;
+    background: linear-gradient(#36265A, #000);
+    /* background-color: #0c020f; */
+
+
+}
+
+.footercontent h4 {
+    color: #AC00BF;
+    font-weight: 700;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footercontent p {
+    color: #fff;
+    font-weight: 400;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footercontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footerlogo,
+.blog {
+    padding: 50px;
+}
+
+.card-header h2 button,
+.card-body h6 {
+    font-weight: 700;
+    color: rgb(228, 224, 224);
+
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.card-body {
+    font-weight: 400;
+    color: rgb(228, 224, 224);
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.farHeading h1 {
+
+    font-size: 40px;
+    color: #AC00BF;
+    /* color: #ffff; */
+    font-weight: 700;
+
+    font-family: 'Montserrat', sans-serif;
+
+    text-align: center;
+    padding: 30px;
+}
+
+.videos {
+    margin: 0px !important;
+
+}
+
+.hour {
+    /* border: 1px solid wheat; */
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+    border-radius: 7px;
+    /* padding: 10px; */
+
+    padding: 6px;
+    margin: 10px;
+
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.hour h3 {
+
+    font-weight: 400;
+
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(228, 224, 224);
+
+
+}
+
+.questionbtn h2 {
+
+
+
+
+    color: #AC00BF;
+
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 23px;
+
+    /* text-align: center; */
+
+}
+
+.questionbtn:hover {
+
+    color: #AC00BF;
+}
+
+.questionbtn h2:hover {
+    text-decoration: underline;
+
+
+
+}
+
+.roadmap {
+    width: 100%;
+    /* height: 100vh; */
+    background: linear-gradient(#0c020f, #281D42);
+    margin-top: -10px;
+
+}
+
+.roadmapHeading h1 {
+    color: #AC00BF;
+
+    font-weight: 700;
+    /* font-size:23px; */
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+    text-align: center;
+
+}
+
+
+
+/* ///Roadmapp */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    color: #AC00BF;
+    background: #ff7979;
+}
+
+.wrapper {
+    max-width: 1080px;
+    margin: 0px auto;
+    padding: 10 20px;
+    position: relative;
+}
+
+.wrapper .center-line {
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    background: #AC00BF;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+}
+
+.wrapper .row {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.wrapper .row-1 {
+
+    justify-content: flex-start;
+    margin: 0px 10px;
+}
+
+.wrapper .row-2 {
+    justify-content: flex-end;
+    margin: 0px 10px;
+
+}
+
+.wrapper .row section {
+    background: rgb(0, 0, 0, 0.4);
+    border-radius: 5px;
+    width: calc(50% - 40px);
+
+    padding: 20px;
+    position: relative;
+}
+
+.wrapper .row section::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    /* background: #AC00BF; */
+    /* background-color: wheat; */
+    top: 28px;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+.row-1 section::before {
+    right: -7px;
+}
+
+.row-2 section::before {
+    left: -7px;
+}
+
+.row section .icon,
+.center-line .scroll-icon {
+    position: absolute;
+    background: #AC00BF;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 17px;
+    box-shadow: 0 0 0 4px #AC00BF, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.center-line .scroll-icon {
+    bottom: 0px;
+    left: 20%;
+    font-size: 25px;
+    transform: translateX(-50%);
+}
+
+.row-1 section .icon {
+    top: 15px;
+    right: -50px;
+}
+
+.row-2 section .icon {
+    top: 15px;
+    left: -50px;
+}
+
+.row section .details,
+.row section .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row section .details .title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.row section p {
+    margin: 10px 0 17px 0;
+}
+
+.row section .bottom a {
+    text-decoration: none;
+    background: #ff7979;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    /* font-size: 17px; */
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.row section .bottom a:hover {
+    transform: scale(0.97);
+}
+
+@media only screen and (max-width: 790px) {
+
+    .wrapper .center-line {
+        left: 40px;
+    }
+
+    .wrapper .row {
+        margin: 30px 0 3px 60px;
+        padding-right: 4px;
+
+    }
+
+    .wrapper .row section {
+        width: 100%;
+    }
+
+    .row-1 section::before {
+        left: -7px;
+    }
+
+    .row-1 section .icon {
+        left: -31px;
+    }
+
+    .row-2 section .icon {
+        left: -31px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+
+    .wrapper .row {
+        margin: 30px 0 3px 3px;
+        padding: 10px;
+    }
+
+    .wrapper .center-line,
+    .row section::before,
+    .row section .icon {
+        display: none;
+    }
+
+    .wrapper .row {
+        margin: 10px 10;
+    }
+}
+
+.row p {
+    color: #fff;
+}
+
+.fa-youtube {
+    color: #FF0101;
+    font-size: 20px;
+
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+}
+
+.exteraContent {
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.exteraContent p {
+    color: #AC00BF;
+
+    margin-right: 70px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.featureContent p {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #fff;
+
+}
+
+.featureContent {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.featureHeading {
+    text-align: center;
+    padding: 20px;
+}
+
+.featureHeading h2 {
+
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #AC00BF;
+}
+
+select {
+    padding: 8px;
+    background: transparent;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+option {
+    background-color: #000;
+    color: #fff;
+    padding: 10px !important;
+}
+
+#click {
+    font-size: 21px !important;
+    color: #AC00BF;
+    font-weight: bolder;
+}
+
+.walletLogo img {
+    margin-left: 20px;
+}
+
+.dropdown {
+    border: 1px solid rgb(211, 211, 211, 0.6);
+    border-radius: 10px;
+    background-color: #000 !important;
+}
+
+.mydrwop:hover {
+
+    color: #ffff !important;
+}
+
+.dropdown-menu {
+    background-color: #000 !important;
+}
+
+.dropdown-toggle::after {
+    color: #fff !important;
+}
+
+.solandCity h1 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #AC00BF;
+    text-align: center;
+}
+
+.cityCard {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.cityCard h5,
+.cityCard a {
+    color: #fff;
+}
+
+.cityCard a:hover {
+    color: #fff;
+}
+
+.nftScrooing,
+.nftclander,
+.nftFeed,
+.solScan {
+    margin: 20px;
+    background-color: rgb(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.blog img {
+    margin-right: 10px;
+}

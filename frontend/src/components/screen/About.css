@@ -1,0 +1,86 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.body {
+    background: linear-gradient(#09020c, #251a3f);
+    width: 100%;
+    color: aliceblue;
+}
+
+.aboutus-box {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.aboutus {
+    font-size: 22px;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.about-text {
+    font-size: 17px;
+    padding: 10px 30px;
+    color: whitesmoke !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-box {
+    margin-left: 20px;
+}
+
+.contact-form>h4 {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 10px 0px;
+    color: whitesmoke !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-form>form>input {
+    width: 415px;
+    padding: 10px 5px;
+    margin: 4px 0px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.contact-form>form>textarea {
+    margin: 4px 0px;
+    padding: 10px 5px;
+    outline: none;
+    background: none;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.contact-form>p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: whitesmoke !important;
+}
+
+.contact-form>.icons>p {
+    display: flex;
+}
+
+.contact-form>.icons>p>i {
+    font-size: 22px;
+}
+
+.contact-form>form>.contact-btn:hover {
+    background-color: #f2a139 !important;
+}

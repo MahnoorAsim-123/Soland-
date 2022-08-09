@@ -1,0 +1,169 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.parentCont {
+    width: 100%;
+    background: linear-gradient(#09020c, #251a3f);
+}
+
+.mainCont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cent {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+}
+
+.inner-Cent {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.inner-Cent h4 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 26px;
+}
+
+.inner-Cent h5 {
+    text-align: center;
+    font-weight: 200;
+}
+
+.inner-Cent h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.inner-Cent .discount {
+    font-weight: 600;
+    text-align: center;
+}
+
+.inner-Cent .offer {
+    font-size: 20px;
+    text-align: center;
+}
+
+.box-Cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.img-Cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 55px;
+    flex-direction: column;
+    color: rgb(219, 213, 213);
+}
+
+.img-Cont>img {
+    width: 100%;
+}
+
+.box {
+    padding-top: 4px;
+    width: 300px;
+    height: 180px;
+    color: white;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.box .box-inner {
+    padding-left: 20px;
+}
+
+.box .box-inner h4 {
+    font-size: 18px;
+}
+
+.box h5 {
+    font-weight: 200;
+}
+
+.btn-Cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.butn {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    color: black;
+    padding: 2px 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.box .box-btn {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.box .box-btn button {
+    border: none;
+    outline: n;
+    width: 160px;
+    height: 35px;
+    border-radius: 40px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    padding: 1px;
+}
+
+.caption h4 {
+    color: rgb(219, 213, 213);
+}
+
+.nav-Back {
+    background-color: #7700ff !important;
+}
+
+.myli {
+    color: aliceblue !important;
+    font-weight: 500 !important;
+}
